@@ -1,8 +1,9 @@
 # Ex.No.10
 Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
-## Date:
-## Reg. No.
+## DATE: 26-05-2026
+## NAME: ESWANTH KUMAR K
+## REG NO: 212223040046
 
 ## Aim:
 To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
@@ -61,6 +62,181 @@ content generation scenarios:
 2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
 3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
 4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
+
+
+
+## Problem Statement
+
+While large language models are powerful, the **quality of output heavily depends on the input prompt**. Poorly structured prompts can lead to:
+
+* Incomplete or vague responses
+* Lack of coherence
+* Irrelevant or repetitive content
+
+This project addresses the need for **effective prompting strategies** to produce reliable and well-structured outputs.
+
+---
+
+## Prompt Engineering Techniques
+
+### 1. Query Decomposition
+
+Breaking down a complex task into smaller, manageable sub-questions.
+
+**Example:**
+
+```id="qd123"
+Write a report on climate change:
+1. Causes
+2. Effects
+3. Solutions
+```
+
+**Impact:**
+
+* Improves clarity
+* Ensures completeness
+* Produces well-organized output
+
+---
+
+### 2. Decision-Making Prompts
+
+Guiding the model to evaluate options or make logical choices.
+
+**Example:**
+
+```id="dm456"
+Compare electric cars and petrol cars and recommend the better option based on cost and sustainability.
+```
+
+**Impact:**
+
+* Encourages analytical responses
+* Produces reasoned conclusions
+* Useful for case studies
+
+---
+
+### 3. Semantic Filtering
+
+Constraining the output to specific contexts or criteria.
+
+**Example:**
+
+```id="sf789"
+Write an article about AI in healthcare focusing only on benefits for rural areas.
+```
+
+**Impact:**
+
+* Reduces irrelevant information
+* Increases topic relevance
+* Enhances precision
+
+---
+
+### 4. Role-Based Prompting
+
+Assigning a role to the model to shape tone and expertise.
+
+**Example:**
+
+```id="rb101"
+Act as a professional journalist and write a news article about renewable energy.
+```
+
+**Impact:**
+
+* Improves tone and style
+* Produces domain-specific language
+* Enhances realism
+
+---
+
+### 5. Creative Prompting
+
+Encouraging imaginative and narrative outputs.
+
+**Example:**
+
+```id="cp202"
+Create a comic story about a robot learning human emotions.
+```
+
+**Impact:**
+
+* Boosts creativity
+* Generates engaging content
+* Useful for storytelling and media
+
+---
+
+## System Overview
+
+The system uses ChatGPT to:
+
+* Process structured prompts
+* Apply contextual understanding
+* Generate coherent and relevant outputs
+
+---
+
+## Working Principle
+
+1. User selects a prompting technique
+2. A structured prompt is created
+3. The AI processes the prompt
+4. Output is generated based on constraints and structure
+5. Results are evaluated for quality and coherence
+
+---
+
+## Applications
+
+* Academic report writing
+* Article generation
+* Case study development
+* Story and comic creation
+* Business content generation
+
+---
+
+## Advantages
+
+* Improves content quality
+* Enhances structure and clarity
+* Saves time and effort
+* Enables diverse content creation
+
+---
+
+## Comparison of Prompting Techniques
+
+| Technique            | Description                                      | Example Use Case                  | Strengths                          | Limitations                          |
+|---------------------|--------------------------------------------------|-----------------------------------|------------------------------------|--------------------------------------|
+| Query Decomposition | Breaks a complex query into smaller parts        | Report writing                    | Improves structure and clarity     | Can be time-consuming                |
+| Decision-Making     | Guides the model to compare and decide           | Product comparison, case studies  | Produces logical conclusions       | May introduce bias if poorly framed  |
+| Semantic Filtering  | Restricts output to specific criteria            | Focused articles                  | High relevance and precision       | May limit creativity                 |
+| Role-Based Prompting| Assigns a role to shape tone and style           | News articles, expert opinions    | Improves realism and tone          | Depends on role definition quality   |
+| Creative Prompting  | Encourages imaginative and narrative outputs     | Stories, comics                   | Highly engaging and creative       | Less structured output               |
+
+
+
+## Limitations
+
+* Requires understanding of prompting techniques
+* Results may vary depending on prompt design
+* Overly complex prompts may confuse the model
+
+---
+
+## Future Enhancements
+
+* Automated prompt optimization
+* Integration with content management systems
+* Adaptive prompting based on user intent
+* Multi-modal content generation (text, image, video)
 
 ## Conclusion:
 By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
